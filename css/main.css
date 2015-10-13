@@ -1,1 +1,218 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #E9EAEE;
+}
+
+@media screen and (min-width: 768px) {
+	/*font-size: 20px;*/
+	h2 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	.navbar {
+		background-color: rgba(24, 28, 34, 0.8);
+		margin-bottom: 0 !important;
+		min-height: 0 !important;
+	}
+	.header {
+		background-image: url("../img/background-sm.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		text-align: right;
+		height: 550px;
+	}
+	li {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	
+	
+	.headline {
+		font-size: 1.25em;
+		text-align: center;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		
+	}
+	.headline svg {
+		height: 1.5em;
+		fill: #D87E28;
+	}
+	
+	#floated-img{
+		float: right;
+    	margin-left: 1em;
+    	max-height: 400px;
+    	border-radius: 5px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.header {
+		background-image: url("../img/background-md.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		text-align: right;
+		height: 550px;
+	}
+	#dawgCoffee {
+		font-size: 4em;
+	}
+	#floated-img{
+		float: right;
+    	margin-left: 1em;
+    	max-height: 400px;
+    	border-radius: 5px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.header {
+		background-image: url("../img/background-lg.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		text-align: right;
+		height: 550px;
+	}
+	#dawgCoffee {
+		font-size: 4em;
+	}
+	#floated-img{
+		float: right;
+    	margin-left: 1em;
+    	max-height: 400px;
+    	border-radius: 5px;
+	}	
+}
+
+#map-pic {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	#motto {
+		display: none;
+	}
+	.headline svg {
+		display: none;
+	}
+	#floated-img{
+		float: right;
+    	margin-left: 1em;
+    	max-height: 300px;
+    	border-radius: 5px;
+	}
+	#credits {
+		text-align: right;
+	}
+}
+#navbar-icon {
+	fill: white;
+	height: 1em;	
+}
+
+#headline-text {
+	font-style: italic; 
+}
+
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+#coming-soon {
+	padding-top: 1em;
+	
+}
+
+.navbar ul li a:hover {
+	color: #D87E28;
+}
+
+.col-md-4 svg {
+	height: 1.5em;
+	fill: #D87E28;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	padding: 0.5em;
+}
+
+h1 {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+	color: #BC6026
+}
+
+h3 {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	background-color: #181C22;
+}
+
+header {
+	padding-top: 3em;
+}
+
+.info-icons {
+	
+}
+
+#map svg {
+	border-radius: 25px;
+}
+
+#menu-title {
+	text-align:center;
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+	color: #BC6026;
+	font-size: 20px;
+}
+
+.information {
+	background-color: #dbdce3;
+}
+.row {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.col-md-6 dl dd{
+	font-style:italic;
+	text-indent: 1em;
+}
+
+.footer {
+	border-top-style: solid;
+	border-top-color: #D87E28;
+	background-color: #afb3c2;
+	clear: both;
+}
+
+#copyright {
+	padding-top: 1em;
+}
+
+#credits {
+	padding-top: 1em;
+}
