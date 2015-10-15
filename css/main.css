@@ -168,6 +168,7 @@ nav {
 	width: 100%;
 	position: fixed;
 	background-color: #181C22;
+	z-index: 999;
 }
 
 header {
@@ -216,3 +217,8 @@ header {
 #credits {
 	padding-top: 1em;
 }
+
+.cafe {
+	padding-top: 1em;
+}
+
